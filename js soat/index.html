@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body
+        {
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            background: rgb(107, 106, 106);
+        }
+        .clock
+        {
+            font-size: 40px;
+        }
+        .date
+        {
+            font-size: 30px;
+        }
+
+        #startBtn
+     {
+        width: 100px;
+        height: 5vh;
+        background-color: green;
+        color: black;
+        font-size: 17px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        
+     }
+     
+     #stopBtn
+     {
+        width: 100px;
+        height: 5vh;
+        background-color: red;
+        color: black;
+        font-size: 17px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        
+     }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="clock">00:00:00</div>
+
+    <div>
+        <button id="startBtn">Boshlash</button>
+        <button id="stopBtn">To‘xtatish</button>
+    </div>
+    <script src="./code.js"></script>
+</body>
+</html>
